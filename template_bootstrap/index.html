@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Шах и мат</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+
+<header>
+	<div class="head">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="head-block1">
+								<div class="head-info">
+									<span>Главная</span>
+								</div>
+								<div class="head-info">
+									<span>О нас</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">		
+							<div class="head-block">
+								<div class="head-info">
+									<span>Программы</span>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+				<div class="col-md-4">
+					<div class="head-img">
+						<a href="#"><img src="images/logo.jpg"></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="head-block">
+								<div class="head-info">
+									<span>Турниры</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">		
+							<div class="head-block2">
+								<div class="head-info">
+									<span>Контакты</span>
+								</div>
+								<div class="head-info" id="galary">
+									<span>Галерея</span>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<div class="main1">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1">
+				<div class="main1-img">
+					<img src="images/background1.jpg">
+				</div>
+				<div class="col-xs-1"></div>
+			</div>	
+		</div>		
+	</div>	
+</div>
+	
+
+<!-- <p>Михаил Таль:  Шахматы - для каждого своё. Для одного - это искусство, для тех, кто ценит систематизацию, логику, точный выверенный анализ, - наверное, наука, ну а для третьего - прежде всего борьба, азарт, риск.
+Источник: http://stuki-druki.com/aforizm_Shahmati.php Штуки-дрюки ©</p> -->
+<div class="main-about">
+	<div class="container">
+		<div class="row">
+				<div class="col-xs-12">
+					<div class="main-about-title">
+						<div class="row">	
+							<div class="col-xs-4"><div class="main-about-hr"><hr></div></div>
+							<div class="col-xs-4"><div class="main-about-span"><span>О нас</span></div></div>
+							<div class="col-xs-4"><div class="main-about-hr"><hr></div></div>
+						</div>
+					</div>		
+				</div>	
+		</div>		
+	</div>
+
+	<div class="container">
+		<div class="main-about-info">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="school-img">
+						<img src="images/logo.jpg">
+					</div>
+				</div>
+				<div class="col-sm-5 col-sm-offset-1">
+					<div class="school-describe">
+						<p>Шахматная школа <span>«Шах и Мат»</span> - новоиспеченная школа с большими амбициями и с увереным взглядом в будущее! Все преподаватели и сотрудники нашей школы квалифицированные шахматисты имеющие боевой опыт не менее 5 лет, и продолжающие выступать на профессиональном уровне. Все преподаватели прошли отбор для работы с вашими детьми. </p>
+
+						<p>
+							<span>Наша цель - повышение уровня шахматной игры и воспитание конкурентноспособного поколения!</span>
+						</p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="main-benefit">
+	<div class="container">
+		<div class="row">
+				<div class="col-xs-12">
+					<div class="main-benefit-title">
+						<div class="row">	
+							<div class="col-xs-4"><div class="main-benefit-hr"><hr></div></div>
+							<div class="col-xs-4"><div class="main-benefit-span"><span>Польза шахмат</span></div></div>
+							<div class="col-xs-4"><div class="main-benefit-hr"><hr></div></div>
+						</div>
+					</div>		
+				</div>	
+		</div>		
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="benefit-row">
+				<div class="col-md-2">
+					<div class="benefit-img">
+						<img src="images/pawn.jpg">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="benefit-describe">
+						<p>Шахматы учат мыслить системно и стратегически, развивают способность к анализу, а самое главное – дети учатся создавать внутренний план действий.</p>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="benefit-img">
+						<img src="images/bishop.jpg">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="benefit-describe">
+						<p>Шахматы учат правильно относиться к неудачам и ошибкам, анализировать причины неудач, делать выводы и применять их в будущем.</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="row">
+			<div class="benefit-row">
+				<div class="col-md-2">
+					<div class="benefit-img">
+						<img src="images/tur.jpg">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="benefit-describe">
+						<p>Шахматы развивают в ребенке способность принимать решения в условиях неопределенности и отвечать за них, а значит, и самостоятельность.</p>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="benefit-img">
+						<img src="images/knight.jpg">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="benefit-describe">
+						<p>Шахматы развивают умение длительное время концентрироваться на одном виде деятельности (что для гиперактивных ребят выполняет еще и коррекционную функцию).</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="row">
+			<div class="benefit-row">
+				<div class="col-md-2">
+					<div class="benefit-img">
+						<img src="images/king.jpg">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="benefit-describe">
+						<p>Шахматы развивают память, логическое мышление, пространственное воображение, вырабатывают усидчивость, внимательность, целеустремленность. Ребенок учится делать логические выводы – мыслить самостоятельно.</p>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="benefit-img">
+						<img src="images/queen.jpg">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="benefit-describe">
+					<p>Шахматы развивают изобретательность и творческие способности, этому особенно способствует решение комбинаций, задач и, конечно же, «музыки шахмат» — этюдов.</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+
+<div class="main-teacher">
+	<div class="container">
+		<div class="row">
+				<div class="col-xs-12">
+					<div class="main-teacher-title">
+						<div class="row no-gutter">	
+							<div class="col-xs-4"><div class="main-teacher-hr"><hr></div></div>
+							<div class="col-xs-4"><div class="main-teacher-span"><span>Наша команда</span></div></div>
+							<div class="col-xs-4"><div class="main-teacher-hr"><hr></div></div>
+						</div>
+					</div>		
+				</div>	
+		</div>		
+	</div>
+	<div class="container">
+		<div class="teacher">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="teacher-blog">
+						<div class="teacher-blog-img">
+							<img src="images/teacher.jpg">
+						</div>
+						<div class="teacher-blog-info">
+							<div class="teacher-blog-info-title">
+								<span>Амиржаниов Ринат</span>
+							</div>
+							<div class="teacher-blog-info-hr">
+								<hr>
+							</div>
+							<div class="teacher-blog-info-describe">
+								<p>Кандидат в мастера спорта. Многократный чемпион города Алматы. 3-место в чемпионате мира среди юношей. (вторник-четверг-суббота)</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="teacher-blog">
+						<div class="teacher-blog-img">
+							<img src="images/teacher.jpg">
+						</div>
+						<div class="teacher-blog-info">
+							<div class="teacher-blog-info-title">
+								<span>Мезенцев Иван</span>
+							</div>
+							<div class="teacher-blog-info-hr">
+								<hr>
+							</div>
+							<div class="teacher-blog-info-describe">
+								<p>Кандидат в мастера спорта. Многократный чемпион города до 20 лет. Многократный призер и победитель чемпионата Республики Казахстан среди юношей.()</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="teacher-blog">
+						<div class="teacher-blog-img">
+							<img src="images/teacher.jpg">
+						</div>
+						<div class="teacher-blog-info">
+							<div class="teacher-blog-info-title">
+								<span>Байтуменова Алия</span>
+							</div>
+							<div class="teacher-blog-info-hr">
+								<hr>
+							</div>
+							<div class="teacher-blog-info-describe">
+								<p>1-разряд по шахматам. Многократный призер чемпионата города Алматы. 3 призер ЧРК по активным шахматам. Первое место в чемпионате России</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+
+<div class="main-program">
+	<div class="container">
+		<div class="row">
+				<div class="col-xs-12">
+					<div class="main-program-title">
+						<div class="row no-gutter">	
+							<div class="col-xs-4"><div class="main-program-hr"><hr></div></div>
+							<div class="col-xs-4"><div class="main-program-span"><span>Программы</span></div></div>
+							<div class="col-xs-4"><div class="main-program-hr"><hr></div></div>
+						</div>
+					</div>		
+				</div>	
+		</div>		
+	</div>
+	<div class="container">
+		<div class="program">
+		<div class="row">
+		<div class="col-xs-12">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="program-place">
+						<div class="program-blog-beginner">
+							<div class="program-blog-img">
+								<img src="images/beginer.jpg">
+							</div>
+							<div class="program-blog-info">
+								<div class="program-blog-info-title">
+									<span>Beginner</span>
+								</div>
+								<div class="program-blog-info-hr">
+									<hr>
+								</div>
+								<div class="program-blog-info-describe">
+									<span>Тренер:</span><br>
+									<span>Байтуменова Алия</span>
+								</div>						
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-sm-4">
+					<div class="program-place">
+						<div class="program-blog-junior">
+							<div class="program-blog-img">
+								<img src="images/junior.jpg">
+							</div>
+							<div class="program-blog-info">
+								<div class="program-blog-info-title">
+									<span>Junior</span>
+								</div>
+								<div class="program-blog-info-hr">
+									<hr>
+								</div>
+								<div class="program-blog-info-describe">
+									<span>Тренер:</span><br>
+									<span>Амиржаниов Ринат</span>
+								</div>						
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-sm-4">
+					<div class="program-place">
+						<div class="program-blog-advanced">
+							<div class="program-blog-img">
+								<img src="images/progressive.jpg">
+							</div>
+							<div class="program-blog-info">
+								<div class="program-blog-info-title">
+									<span>Progressive</span>
+								</div>
+								<div class="program-blog-info-hr">
+									<hr>
+								</div>
+								<div class="program-blog-info-describe">
+									<span>Тренер:</span><br>
+									<span>Мезенцев Иван</span>
+								</div>						
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	<div class="callback-form">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="callback-form-visa">
+						<img src="images/visa.png">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="callback-form-form">
+						<form>
+							<input type="text" name="name" placeholder="Имя*">
+							<input type="text" name="email" placeholder="Email*">
+							<input type="text" name="phone" placeholder="Телефон">
+							<textarea name="mail" placeholder="Сообщение"></textarea>
+							<button>Отправить</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+<div class="main-tournament">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="main-tournament-title">
+					<div class="row no-gutter">	
+						<div class="col-xs-4"><div class="main-tournament-hr"><hr></div></div>
+						<div class="col-xs-4"><div class="main-tournament-span"><span>Турниры</span></div></div>
+						<div class="col-xs-4"><div class="main-tournament-hr"><hr></div></div>
+					</div>
+				</div>		
+			</div>	
+		</div>		
+	</div>
+	<div class="container">
+		<div class="tournament">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="tournament-place">
+								<div class="tournament-blog">
+									<div class="tournament-blog-img">
+										<img src="images/saturday.jpg">
+									</div>
+									<div class="tournament-blog-info">
+										<div class="tournament-blog-info-title">
+											<span>Воскресный турнир</span>
+										</div>
+										<div class="tournament-blog-info-hr">
+											<hr>
+										</div>
+										<div class="tournament-blog-info-describe">
+											<ul>
+												<li><span>Дата:</span> каждое воскресение</li>
+												<li><span>Ограничения:</span> до 1 разряда</li>
+												<li><span>Взнос:</span> 1000тг</li>
+												<li><span>Регистрация:</span> 17:00</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="tournament-place">
+								<div class="tournament-blog">
+									<div class="tournament-blog-img">
+										<img src="images/september.jpg">
+									</div>
+									<div class="tournament-blog-info">
+										<div class="tournament-blog-info-title">
+											<span>Сентябрьский турнир</span>
+										</div>
+										<div class="tournament-blog-info-hr">
+											<hr>
+										</div>
+										<div class="tournament-blog-info-describe">
+											<ul>
+												<li><span>Дата:</span> каждое воскресение</li>
+												<li><span>Ограничения:</span> до 1 разряда</li>
+												<li><span>Взнос:</span> 1000тг</li>
+												<li><span>Регистрация:</span> 17:00</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="tournament-place">
+								<div class="tournament-blog">
+									<div class="tournament-blog-img">
+										<img src="images/3rang.jpg">
+									</div>
+									<div class="tournament-blog-info">
+										<div class="tournament-blog-info-title">
+											<span>Турнир на разряд</span>
+										</div>
+										<div class="tournament-blog-info-hr">
+											<hr>
+										</div>
+										<div class="tournament-blog-info-describe">
+											<ul>
+												<li><span>Дата:</span> каждое воскресение</li>
+												<li><span>Ограничения:</span> до 1 разряда</li>
+												<li><span>Взнос:</span> 1000тг</li>
+												<li><span>Регистрация:</span> 17:00</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="tournament-place">
+								<div class="tournament-blog">
+									<div class="tournament-blog-img">
+										<img src="images/celebrate.jpg">
+									</div>
+									<div class="tournament-blog-info">
+										<div class="tournament-blog-info-title">
+											<span>Праздничный турнир</span>
+										</div>
+										<div class="tournament-blog-info-hr">
+											<hr>
+										</div>
+										<div class="tournament-blog-info-describe">
+											<ul>
+												<li><span>Дата:</span> каждое воскресение</li>
+												<li><span>Ограничения:</span> до 1 разряда</li>
+												<li><span>Взнос:</span> 1000тг</li>
+												<li><span>Регистрация:</span> 17:00</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="join-form">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="join-form-place">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="join-form-title"><span>Запись на турнир</span></div>
+							</div>
+						</div>
+						<div class="join-form-form">
+							<div class="row">
+								<div class="col-xs-12">
+									<form>
+										<div class="grid">
+											<div class="row">
+												<div class="col-lg-7">
+													<div class="row">
+														<div class="col-lg-4">
+															<div class="grid-item">
+																<input class="form-control" type="text" placeholder="Name">
+															</div>
+														</div>
+														<div class="col-lg-4">	
+															<div class="grid-item">
+																<input class="form-control" type="text" placeholder="Surname">
+															</div>
+														</div>
+														<div class="col-lg-4">	
+															<div class="grid-item">
+																<input class="form-control" type="email" placeholder="Email">
+															</div>
+														</div>	
+													</div>	
+												</div>	
+												<div class="col-lg-5">
+													<div class="row">
+														<div class="col-lg-7">
+															<div class="grid-item-select">
+																<select>
+																	<option selected="selected">Воскресный турнир</option>
+																	<option>Сентябрьский турнир</option>
+																	<option>Турнир на разряд</option>
+																	<option>Праздничный турнир</option>
+																</select>
+															</div>
+														</div>
+														<div class="col-lg-5">	
+															<div class="grid-item-button">
+																<input class="btn btn-default" type="submit" value="Отправить">
+															</div>
+														</div>	
+													</div>	
+												</div>	
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>	
+			</div>	
+		</div>
+	</div>
+		
+</div>
+
+<div class="main-gallary">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="main-gallary-title">
+					<div class="row no-gutter">	
+						<div class="col-xs-4"><div class="main-gallary-hr"><hr></div></div>
+						<div class="col-xs-4"><div class="main-gallary-span"><span>Галерея</span></div></div>
+						<div class="col-xs-4"><div class="main-gallary-hr"><hr></div></div>
+					</div>
+				</div>		
+			</div>	
+		</div>
+		<div class="container">
+			<div class="gallary-slider">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="siema">
+						  <div><img src="https://pawelgrzybek.com/siema/assets/siema--pink.svg" alt="Siema image" /></div>
+						  <div><img src="https://pawelgrzybek.com/siema/assets/siema--yellow.svg" alt="Siema image" /></div>
+						  <div><img src="https://pawelgrzybek.com/siema/assets/siema--pink.svg" alt="Siema image" /></div>
+						  <div><img src="https://pawelgrzybek.com/siema/assets/siema--yellow.svg" alt="Siema image" /></div>
+						  <div><img src="https://pawelgrzybek.com/siema/assets/siema--pink.svg" alt="Siema image" /></div>
+						  <div><img src="https://pawelgrzybek.com/siema/assets/siema--yellow.svg" alt="Siema image" /></div>
+						  <div><img src="https://pawelgrzybek.com/siema/assets/siema--pink.svg" alt="Siema image" /></div>
+						  <div><img src="https://pawelgrzybek.com/siema/assets/siema--yellow.svg" alt="Siema image" /></div>
+						  <div><img src="https://pawelgrzybek.com/siema/assets/siema--pink.svg" alt="Siema image" /></div>
+						  <div><img src="https://pawelgrzybek.com/siema/assets/siema--yellow.svg" alt="Siema image" /></div>
+						  <div><img src="https://pawelgrzybek.com/siema/assets/siema--pink.svg" alt="Siema image" /></div>
+						  <div><img src="https://pawelgrzybek.com/siema/assets/siema--yellow.svg" alt="Siema image" /></div>
+						</div>
+		 
+						<button class="prev"><img src="images/previous.png"></button>
+						<button class="next"><img src="images/next.png"></button>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="footer-contact">
+					<div class="footer-contact-title">	
+						<span>Контакты</span>
+					</div>
+					<div class="footer-contact-phone">
+						<span>8(701)550 10 51</span>
+					</div>	
+					<div class="footer-contact-phone">
+						<span>8(707)220 13 33</span>
+					</div>
+					<div class="footer-help">
+						<span>При поддержке</span>
+						<div><a href="#"><img src="images/Almau.png"></a></div>
+					</div>
+				</div>	
+			</div>
+			<div class="col-sm-3">
+				<div class="footer-network">
+					<div class="footer-network-title">
+						<span>Мы в соцсетях</span>
+					</div>
+					<div class="footer-networks">
+						<div class="footer-network-insta">
+							<div><a href="#"><img src="images/instagram.svg"></a></div>
+						</div>
+						<div class="footer-network-vk">
+							<div><a href="#"><img src="images/vk.svg"></a></div>
+						</div>
+					</div>	
+				</div>	
+			</div>
+			<div class="col-sm-6">
+				<div class="footer-map">
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab6e703b5248564700e16391abfd3177827307b865ecc8abfdb55ef8042bdccdf&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+				</div>	
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="js/common.js"></script>
+	<script src='https://pawelgrzybek.com/siema/assets/siema.min.js'></script>
+
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
